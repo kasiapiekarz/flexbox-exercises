@@ -1,0 +1,122 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    background-color: grey;
+}
+
+.navbar,
+.navbarList,
+.navBranding,
+.navbarList a {
+    display: flex;
+    min-height: 60px;
+    align-items: center;
+}
+
+.navbar {
+    background-color: #fff;
+    
+    padding: 0 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #d6d7dd;
+}
+
+.navbarList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: flex-end;
+    font-size: 10px;
+}
+
+.navbar,
+.navbarList a {
+    color: #a4a6ae;
+}
+
+.navbarList a {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.navBranding {
+    text-transform: uppercase;
+    font-size: 9px;
+}
+
+.navBranding img {
+    margin-right: 10px;
+    height:60px;
+}
+
+.navbarList a:hover {
+    color: #997fbc;
+}
+
+
+/*
+.cardSection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    background-color: #f7f8f8;
+    height: 100%;
+    width:100%;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+.card{
+    
+    height:130px;
+    width:100px;
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 5px;
+    
+    color: rgba(90, 92, 107, 0.85);
+    text-align: center;
+    font-size: 10px;
+    overflow: hidden;
+}
+.plate{
+    height:70px;
+    width:100%;
+    line-height: 70px;
+    font-size: 36px;
+    
+    color:#fff;
+    background-color: #997fbc;
+}
+.card1 .plate {
+  background: #997fbc;
+}
+
+.card2 .plate {
+  background: #92ded2;
+}
+
+.card3 .plate {
+  background: #fdc28a;
+}
+
+.card4 .plate {
+  background: #ee8ebc;
+}
+
+.card5 .plate {
+  background: #babc7f; 
+}
+
+.card6 .plate {
+  background: #7f7fbc;
+}*/
