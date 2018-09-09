@@ -16,7 +16,6 @@ body {
 
 .navbar {
     background-color: #fff;
-    
     padding: 0 20px;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -53,70 +52,75 @@ body {
 
 .navBranding img {
     margin-right: 10px;
-    height:60px;
+    height: 60px;
 }
 
 .navbarList a:hover {
     color: #997fbc;
 }
 
-
-/*
-.cardSection{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
+.cardSection {
+    display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    align-items: flex-end;
-    background-color: #f7f8f8;
-    height: 100%;
-    width:100%;
-    padding: 5px;
+    align-items: center;
+    align-content: space-around;
+    background-color: #f7f8fb;
+    min-height: 500px;
+    padding: 20px;
     box-sizing: border-box;
-    
 }
-.card{
-    
-    height:130px;
-    width:100px;
-    border-radius:5px;
-    box-shadow:0 0 10px rgba(0, 0, 0, 0.2);
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    flex-basis: 100px;
+/*    align-items: center;*/
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 5px;
-    
     color: rgba(90, 92, 107, 0.85);
     text-align: center;
     font-size: 10px;
     overflow: hidden;
 }
-.plate{
-    height:70px;
-    width:100%;
+
+.plate {
+    height: 70px;
+    width: 100%;
     line-height: 70px;
     font-size: 36px;
-    
-    color:#fff;
+/*
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+*/
+    color: #fff;
     background-color: #997fbc;
 }
+
 .card1 .plate {
-  background: #997fbc;
+    background: #997fbc;
 }
 
 .card2 .plate {
-  background: #92ded2;
+    background: #92ded2;
 }
 
 .card3 .plate {
-  background: #fdc28a;
+    background: #fdc28a;
 }
 
 .card4 .plate {
-  background: #ee8ebc;
+    background: #ee8ebc;
 }
 
 .card5 .plate {
-  background: #babc7f; 
+    background: #babc7f;
 }
 
 .card6 .plate {
-  background: #7f7fbc;
-}*/
+    background: #7f7fbc;
+}
