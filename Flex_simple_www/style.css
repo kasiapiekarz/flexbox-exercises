@@ -5,6 +5,9 @@ body {
     background-color: grey;
 }
 
+
+/* ------- NAVIGATION BAR --------*/
+
 .navbar,
 .navbarList,
 .navBranding,
@@ -59,6 +62,9 @@ body {
     color: #997fbc;
 }
 
+
+/* ------- SECTION CARDS --------*/
+
 .cardSection {
     display: flex;
     justify-content: space-around;
@@ -76,7 +82,7 @@ body {
     flex-direction: column;
     height: 130px;
     flex-basis: 100px;
-/*    align-items: center;*/
+    /*    align-items: center;*/
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 5px;
@@ -91,7 +97,7 @@ body {
     width: 100%;
     line-height: 70px;
     font-size: 36px;
-/*
+    /*
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,4 +129,41 @@ body {
 
 .card6 .plate {
     background: #7f7fbc;
+}
+
+
+/* ------- FOOTER --------*/
+
+.pageFooter {
+    background-color: #fff;
+    height: 160px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+}
+.pageFooter h3 {
+    color: #5a5c6b;
+    font-size: 10px;
+}
+.pageFooter p {
+    line-height: 13px;
+    font-size: 8px;
+    color: #737481;
+}
+.pagFooter h3,
+.pageFooter p {
+    margin: 0;
+}
+.aboutCompany {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85px;
+    max-width: 300px;
+}
+.socialMedia a {
+    text-decoration: none;
 }
