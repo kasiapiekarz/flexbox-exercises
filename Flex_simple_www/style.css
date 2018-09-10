@@ -136,34 +136,82 @@ body {
 
 .pageFooter {
     background-color: #fff;
-    height: 160px;
+    min-height: 160px;
     padding: 20px;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 20px;
 }
 
-
+.pageFooter::before {
+    content: "";
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(90deg, #997fbc, #92ded2, #fdc28a);
+    top: 0;
+    left: 0;
+    
 }
+
 .pageFooter h3 {
     color: #5a5c6b;
     font-size: 10px;
 }
-.pageFooter p {
+
+.pageFooter p, .footerList a {
     line-height: 13px;
     font-size: 8px;
     color: #737481;
 }
+
 .pagFooter h3,
 .pageFooter p {
     margin: 0;
+    margin-bottom: 15px;
 }
+
 .aboutCompany {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 85px;
+    
     max-width: 300px;
+    margin-right: auto;
 }
-.socialMedia a {
+
+.socialMedia a, .footerList a{
     text-decoration: none;
+}
+.footerList {
+  width: 100px;
+  
+}
+.footerList ul {
+    list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+.footerWrapper, .footerList {
+  display: flex;
+  flex-direction: column;
+  
+}
+.footerWrapper{
+    flex-grow: 1;
+
+}
+.footerItem {
+  line-height: 10px;
+  font-size: 8px;
+  height: 10px;
+  margin-bottom: 10px;
+  color: #737481;
+}
+.footerList, .aboutCompany {
+  min-height: 120px;
+  margin-bottom: 20px;
 }
