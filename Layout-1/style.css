@@ -1,5 +1,61 @@
-* {
-    box-sizing: border-box;
+html,
+body {
+    height: 100%;
     padding: 0;
     margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: "Montserrat";
+    display: flex;
+    flex-flow: column;
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 10vh;
+}
+header,
+footer,
+aside,
+.main {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+.main {
+    flex: 1;
+    order: 0;
+}
+
+aside {
+    background-color: #e2e2e2;
+    flex: 0 0 20%;
+}
+
+aside.left {
+    order: -1;
+}
+
+aside.right {
+    order: 1;
+}
+header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+}
+span{
+    padding:5px;
+    align-self: center;
 }
