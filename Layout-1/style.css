@@ -59,3 +59,14 @@ span{
     padding:5px;
     align-self: center;
 }
+@media(max-width:700px){
+    .container{
+        flex-flow:column;
+    }
+    .main{
+        flex:1 1 100%;
+    }
+    aside{
+        flex:1 2 100%;
+    }
+}
