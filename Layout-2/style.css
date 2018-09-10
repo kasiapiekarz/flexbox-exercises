@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-flow: row;
+    
+    
+}
+.colOne{
+    background-color: #f2f2f2;
+    flex:1;
+}
+.colTwo{
+    display: flex;
+    flex-flow: column;
+    flex:5;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    min-height: 60vh;
+    display: flex;
+    flex:3;
+    
+}
+aside{
+    background-color: #a1a1a1;
+    flex:1;
+}
+header,footer{
+    height:20vh;
+    background-color: #e6e6e6;
+}
+header,
+footer,
+aside,
+nav,
+.content {
+    padding: 10px;
+}
